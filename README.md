@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CG Mars Workout - Frontend Coding Challenge
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Camp Gladiator is going to Mars! The year is 2065 and CG is about to start virtual workouts from Mars. For this challenge you'll be showing off your creative and design skills, as well as your proficiency with React.js/Javascript/HTML/CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build a React.js single-page app that showcases a small library of workouts that our campers can access at any time and watch the workouts from anywhere, on any device via a modern web browser. Don't worry, we'll provide the content.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+**Your app should include the following:**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- branded dashboard page showing-casing all available workouts (use the `workouts.json` file provided in this repo)
+- the workout page - which is accessible by clicking on any of the workouts on the dashboard. This page needs to include all of the provided information about the workout along with the playable video. Each workout should be accessable via its own unique URL.
+- Should be well designed and usable with any common device with a modern web browser.
+- Consume the data provided in workouts.json as the content for your app.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Additional Information
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Please limit your work time to 4 hours max for this project
+- You can use your own design system or feel free to use the [CG design library](https://bit.cloud/campgladiator/cgui-core) as a reference for your design
+- It goes without saying, but please document how to run/access your application.
+- tests are great!
+- What features you decide to add is entirely up to you based on your assessment of how to make the application helpful to the end-user, as well as the time limitation.
